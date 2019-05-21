@@ -1,1 +1,30 @@
 /* Your CSS styles go here */
+#background{
+    background-color: lightcyan;
+
+}
+
+h2{
+    color: orange;
+
+}
+
+div>p{
+    color: red;
+}
+
+.desc p{
+    color: green;
+}
+
+.name {
+    width: 300px;
+    height: 200px;
+    background-color: black;
+    color: white
+  }
+
+.name:hover{
+    background-color: white;
+    color: black;
+  }
