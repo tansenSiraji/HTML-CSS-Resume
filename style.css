@@ -1,7 +1,16 @@
 /* Your CSS styles go here */
+.content {
+    max-width: 500px;
+    margin: auto;
+  }
 #background{
     background-color: lightcyan;
+    align-content: center;
 
+}
+
+.img{
+    float: right;
 }
 
 h2{
@@ -14,7 +23,7 @@ div>p{
 }
 
 .desc p{
-    color: green;
+    color: blue;
 }
 
 .name {
@@ -28,3 +37,22 @@ div>p{
     background-color: white;
     color: black;
   }
+
+  /* Responsive Styles*/
+
+
+
+@media (max-width: 575px) {
+    .section{
+      width: 90%;
+      font-size: 32px;
+    }
+  }
+  
+  @media (max-width: 860px) and (min-width: 576px) {
+    .section {
+      width: 30%;
+      font-size: 24px;
+    }
+  }
+  
